@@ -1,0 +1,62 @@
+body {
+    font-family: 'Fondamento', cursive;
+    margin: auto;
+    width: 750px;
+    background-color: antiquewhite;
+    color: darkslategray;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+nav {
+    background-color: crimson;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.navbar--icon {
+    height: 30px;
+}
+
+.navbar--title {
+    padding-left: 10px;
+    letter-spacing: 0.2em;
+}
+
+.travel-card {
+    display: flex;
+    margin: 20px 10px;
+}
+
+.travel-card--image {
+    object-fit: cover;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 1px black;
+}
+
+.travel-card--country {
+    font-size: 1.5em;
+}
+
+.travel-card--google-maps-link {
+    color: gray;
+    margin-left: 20px;
+    font-size: .75em;
+}
+
+.travel-card--title {
+    color: crimson;
+    font-size: 2em;
+    margin: 10px 0 10px;
+    font-weight: bolder;
+}
+
+.travel-card--dates {
+    margin-bottom: 10px;
+}
